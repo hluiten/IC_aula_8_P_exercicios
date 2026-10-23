@@ -1,2 +1,5 @@
 *.md filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
+*.png
+git[[:space:]]lfs[[:space:]]migrate[[:space:]]import[[:space:]]
+[[:space:]]git[[:space:]]lfs[[:space:]]track[[:space:]]*.png filter=lfs diff=lfs merge=lfs -text
